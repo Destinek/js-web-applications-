@@ -4,6 +4,8 @@ class CounterView {
 
     const incrementButtonEl = document.querySelector('#increment-btn');
     
+    
+
     incrementButtonEl.addEventListener('click', () => {
       // Increment on the model, then refresh the view
       this.model.increment();
